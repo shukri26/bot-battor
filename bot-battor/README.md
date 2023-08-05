@@ -1,6 +1,5 @@
-# Bot-Battlr
+# Bot-Battor
 
-- Visit the deployed site https://bot-battlr-8gw32em2b-ismahaneyy.vercel.app/
 - This app fetchs data from a db.json server "http://localhost:3000/bots". It uses React framework.
  - It has the following tables:
 
@@ -10,7 +9,7 @@
   - BotCard component that creates a single bot and  Bot collection uses this component to render all the bots into the page.
   - The BotsContext component provides data of all the bots currently in the server to the page and Initializes context, when imported it will allow us to use the store of data that will be defined.
   - The sortBar component Provides a form that allows a user to sort the bots on the page by their health,damage or armor.
-  - The BotFilter component that fiters bots according to Medic, assauly, Defender, captain and witch.
+  - The BotFilter component that filters bots according to Medic, assauly, Defender, captain and witch.
 
 - REQUIREMENTS FOR USE
 - Prerequisites
@@ -28,7 +27,7 @@
 
 - Open a terminal / command line interface on your computer
 
-- Clone the repo by using the following to create a copy on your local machine: "https://github.com/ismahaneyy/Bot-Battlr"
+- Clone the repo by using the following to create a copy on your local machine: git@github.com:shukri26/bot-battor.git
 
 - Change directory to the repo folder:
 
@@ -36,19 +35,11 @@
   - Open it in Visual Studio Code
   - code .
 
-- run this command To get backend started:
-
-  - json-server--watch db.json- test server by copy-pasting this URL in postman or browser - "http://localhost:3000/bots"
-
-- Status: maintained, and is currently in development
-
-- Version: v0.1.0
-
-- Node Version: 14.17.4 and above
-
-- Author:
-
-- Ismahan Abdirizak
-   - Initial work - [ismahaneyy] "https://github.com/ismahaneyy"
+- Author
+- Mohamud shukri
+- 
+   - Initial work - [shukri26] "https://github.com/shukri26"
+   - 
 - License
-   - This project is licensed under the MIT License
+
+-  MIT
